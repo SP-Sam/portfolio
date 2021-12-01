@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import fotoPerfil from '../images/foto-perfil.jpeg';
 import emailLogo from '../images/email-icon.png';
-import curriculo from '../files/curriculo.pdf';
+import curriculo from '../files/samuel-curriculo.pdf';
 import downloadIcon from '../images/download-icon.jpg';
 import linkedinLogo from '../images/linkedin-logo.png';
 import githubLogo from '../images/github-logo.png';
