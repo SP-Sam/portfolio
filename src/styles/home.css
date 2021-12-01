@@ -1,0 +1,82 @@
+.home {
+  display: flex;
+  height: 600px;
+  justify-content: space-between;
+}
+
+.home main {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.personal-infos {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.personal-infos h3 {
+  font-size: 1.5em;
+  margin-bottom: -20px;
+}
+
+.personal-infos h1 {
+  font-size: 80px;
+  margin-bottom: 10px;
+}
+
+.personal-infos p {
+  font-size: 1.4em;
+}
+
+.main-image {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image img {
+  width: 300px;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: 7px 7px 7px black;
+}
+
+aside {
+  display: flex;
+  align-self: center;
+  height: 90%;
+  width: 80px;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-color: rgb(40, 40, 40);
+  border-left: 1px solid rgba(70, 70, 70, 0.5);
+  box-shadow: 5px 5px 10px black;
+  transition: 0.2s;
+}
+
+aside:hover {
+  height: 92%;
+}
+
+.main-skills-aside {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-skills-aside img {
+  width: 45px;
+  transition: 0.1s;
+}
+
+.main-skills-aside img:hover {
+  width: 50px;
+  cursor: pointer;
+}

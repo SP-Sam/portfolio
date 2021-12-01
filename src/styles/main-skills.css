@@ -1,0 +1,40 @@
+.main-skills {
+  margin-top: 25px;
+  padding-top: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(39, 39, 39);
+}
+
+.main-skills img {
+  width: 75px;
+}
+
+.main-skills section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 70%;
+  margin: 10px 0;
+  border: 1px solid rgba(255, 255, 255, 0.212);
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.main-skills section:hover {
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+section div {
+  text-align: center;
+}
+
+section span {
+  margin-bottom: 15px;
+}
