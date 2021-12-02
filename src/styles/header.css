@@ -40,10 +40,10 @@
 }
 
 .social-links {
-  width: 8%;
+  width: 110px;
+  margin-right: 25px;
   display: flex;
   justify-content: space-between ;
-  margin-right: 25px;
 }
 
 .social-links a img {
@@ -55,4 +55,25 @@
 .social-links a img:hover {
   width: 42px;
   border-radius: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .social-links {
+    margin-right: 15px;
+  }
+  .comunication {
+    width: 500px;
+  }
+  .samuel-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .comunication {
+    width: 150px;
+  }
+  .comunication a span {
+    display: none;
+  }
 }

@@ -1,7 +1,8 @@
 .home {
   display: flex;
-  height: 600px;
+  height: 620px;
   justify-content: space-between;
+  background-color: rgb(50, 50, 50);
 }
 
 .home main {
@@ -51,6 +52,7 @@ aside {
   align-self: center;
   height: 90%;
   width: 80px;
+  min-width: 80px;
   border-radius: 10px;
   margin-right: 10px;
   background-color: rgb(40, 40, 40);
@@ -79,4 +81,104 @@ aside:hover {
 .main-skills-aside img:hover {
   width: 50px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .main-image img {
+    width: 250px;
+  }
+  .personal-infos {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-image img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .main-image img {
+    width: 200px;
+  }
+  aside {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .main-image img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .home {
+    height: 520px;
+  }
+  .personal-infos {
+    width: 300px;
+  }
+  .personal-infos h3 {
+    font-size: 1.1em;
+  }
+  .personal-infos h1 {
+    font-size: 70px;
+  }
+  .personal-infos p {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .home {
+    height: 450px;
+  }
+  .personal-infos {
+    width: 280px;
+  }
+  .personal-infos h3 {
+    font-size: 1em;
+  }
+  .personal-infos h1 {
+    font-size: 60px;
+  }
+  .personal-infos p {
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .home {
+    height: 400px;
+  }
+  .personal-infos {
+    width: 270px;
+    margin-left: 10px;
+  }
+  .personal-infos h3 {
+    font-size: 1em;
+  }
+  .personal-infos h1 {
+    font-size: 60px;
+  }
+  .personal-infos p {
+    font-size: 0.95em;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .home {
+    justify-content: center;
+  }
+  .home main {
+    max-width: 1500px;
+  }
 }

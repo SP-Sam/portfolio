@@ -6,7 +6,7 @@ import reactLogo from '../images/react-logo.png';
 import reduxLogo from '../images/redux-logo.png';
 import '../styles/main-skills.css';
 
-export default class MainSkill extends Component {
+export default class MainSkills extends Component {
   constructor() {
     super();
 
@@ -44,7 +44,7 @@ export default class MainSkill extends Component {
   
     return (
       <div className="main-skills">
-        <h1>Principais Habilidades (Hard skills)</h1>
+        <h1><span>Principais Habilidades</span> <span>(Hard skills)</span></h1>
         <section id="htmlSkill" onClick={ () => this.showSkillTedails('htmlSkill') }>
           <span><b>HTML</b></span>
           <img src={ htmlLogo } alt="logo html"/>

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
+import Footer from '../components/Footer';
 import Header from '../components/Header';
-import MainSkill from '../components/MainSkill';
+import MainSkills from '../components/MainSkills';
 import MainSkillsAside from '../components/MainSkillsAside';
 import fotoPerfil from '../images/foto-perfil.jpeg';
 import '../styles/home.css';
@@ -30,11 +31,12 @@ export default class Home extends Component {
                 alt="Foto de Samuel Pereira"
               />
             </div>
+            <MainSkillsAside />
           </main>
 
-          <MainSkillsAside />
         </div>
-        <MainSkill />
+        <MainSkills />
+        <Footer />
       </>
     )
   }
