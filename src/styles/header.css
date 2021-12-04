@@ -7,7 +7,7 @@
   border-bottom: 1px solid rgba(70, 70, 70, 0.5);
 }
 
-.comunication {
+.communication {
   width: 50%;
   display: flex;
   justify-content: space-around;
@@ -19,7 +19,7 @@
   border: 1px solid white;
 }
 
-.comunication a {
+.communication a {
   display: flex;
   align-items: center;
   color: white;
@@ -27,11 +27,11 @@
   transition: 0.15s;
 }
 
-.comunication a img {
+.communication a img {
   width: 45px;
 }
 
-.comunication a span {
+.communication a span {
   margin-left: 7px;
 }
 
@@ -43,7 +43,7 @@
   width: 110px;
   margin-right: 25px;
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
 }
 
 .social-links a img {
