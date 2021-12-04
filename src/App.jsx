@@ -7,7 +7,7 @@ export default class App extends Component {
   render() {
     return (
       <Routes>
-        <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home />} />
 
       </Routes>
     )
