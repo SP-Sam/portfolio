@@ -36,6 +36,7 @@ export default function MainSkills() {
       <h1>
         <span>Principais Habilidades</span> <span>(Hard skills)</span>
       </h1>
+
       <section id="htmlSkill" onClick={() => showSkillDetails("htmlSkill")}>
         <span>
           <b>HTML</b>

@@ -36,7 +36,7 @@ export default function Header() {
         </a>
 
         <a
-          href="https://github.com/SP-Sam"
+          href="https://github.com/SP-Sam/portfolio"
           target="_blank"
           rel="noopener noreferrer"
         >
