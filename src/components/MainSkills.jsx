@@ -20,10 +20,12 @@ export default function MainSkills() {
   function showSkillDetails(skill) {
     if (skills[skill] === false) {
       setSkills({
+        ...skills,
         [skill]: true,
       });
     } else {
       setSkills({
+        ...skills,
         [skill]: false,
       });
     }
